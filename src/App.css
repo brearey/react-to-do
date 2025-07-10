@@ -49,3 +49,27 @@
   padding: 0 1rem;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+input {
+  padding: 0.8rem;
+  margin: 0.8rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.87);
+  border: 1px solid #242424;
+}
+
+.categories-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.category-button.active {
+  color: blue;
+  border: 2px solid blue;
+}
