@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './App.css'
+import { TaskItem } from "./components/TaskItem";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,6 +16,12 @@ function App() {
                   <div className="category-button active">All</div>
                   <div className="category-button">Active</div>
                   <div className="category-button">Completed</div>
+              </div>
+              <div className="task-list">
+                  <TaskItem checked={true} name="Create component of the task Create component of the task Create component of the task Create component of the taskCreate component of the task Create component of the task Create component of the task Create component of the task"/>
+                  <TaskItem checked={false} name="Task 1"/>
+                  <TaskItem checked={false} name="Task 1"/>
+                  <TaskItem checked={false} name="Task 1"/>
               </div>
           </div>
       </div>

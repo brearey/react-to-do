@@ -73,3 +73,21 @@ input {
   color: blue;
   border: 2px solid blue;
 }
+
+/* Task item */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  margin-bottom: 8px;
+}
+
+.edit-btn > button {
+  background-color: #535bf2;
+  margin-right: 8px;
+}
+
+.delete-btn > button {
+  background-color: crimson;
+}
